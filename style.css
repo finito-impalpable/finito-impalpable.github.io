@@ -1,0 +1,281 @@
+body
+{
+  background-color: #1d1e3e !important;
+
+}
+/*.map {
+    background-color: #1d1e3e;
+    background-image: url("../imagenes/fondo.png");
+    background-position: center;
+    background-repeat: repeat;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+}*/
+
+a.btn:before {
+    font-family: FontAwesome;
+    content: "\f111";
+    display: inline-block;
+    vertical-align: middle;
+}
+
+a.btn2:before
+{
+  font-family: FontAwesome;
+  content: "\f0c8";
+  display: inline-block;
+  vertical-align: middle;
+}
+
+@media (max-width: 320px)
+{
+  .map
+  {
+    height: 200px;
+    margin: 4rem 0;
+  }
+}
+@media (min-width: 321px) and (max-width: 480px)
+{
+  .map
+  {
+    height: 250px;
+    margin: 4rem 0;
+  }
+}
+@media (min-width: 481px) and (max-width: 575.98px)
+{
+  .map
+  {
+    height: 350px;
+    margin: 4rem 0;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px)
+{
+  .map
+  {
+    height: 400px;
+    margin: 4rem 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px)
+{
+  .map
+  {
+    margin: 4rem 0;
+    height: 500px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px)
+{
+  .map
+  {
+    margin: 6rem 0;
+    height: 600px;
+  }
+}
+@media (min-width: 1200px)
+{
+  .map
+  {
+    margin: 8rem 0;
+    height: 600px;
+  }
+}
+.map img
+{
+  margin-top: -10%;
+  position: relative;
+  z-index: 3;
+}
+.map button.btn.pop, .map a.btn.pop
+{
+  z-index: 5;
+  position: absolute;
+  color: #23303f;
+  min-width: 0;
+}
+.map button.btn2.pop, .map a.btn2.pop
+{
+  z-index: 5;
+  position: absolute;
+  color: #23303f;
+  min-width: 0;
+}
+
+@media (max-width: 989.98px)
+{
+  .map button.btn.pop, .map a.btn.pop
+  {
+    font-size: 1rem;
+  }
+  .map button.btn2.pop, .map a.btn2.pop
+  {
+    font-size: 1rem;
+  }
+  /*bnt2*/
+  .map button.btn2.pop.Nobis, .map a.btn2.pop.Nobis
+  {
+    left: 30%;
+    top: 75%;
+    color: #2b4797 !important;
+  }
+
+  .map button.btn2.pop.verde, .map a.btn2.pop.verde
+  {
+    left: 30%;
+    top: 80%;
+    color: #2fac66 !important;
+  }
+
+  .map button.btn2.pop.blanco, .map a.btn2.pop.blanco
+  {
+    left: 30%;
+    top: 85%;
+    color: #ffffff !important;
+  }
+
+  .map button.btn2.pop.amarillo, .map a.btn2.pop.amarillo
+  {
+    left: 30%;
+    top: 90%;
+    color: #ffed00 !important;
+  }
+
+  .map button.btn2.pop.morado, .map a.btn2.pop.morado
+  {
+    left: 62%;
+    top: 77%;
+    color: #625491 !important;
+  }
+
+  .map button.btn2.pop.rosa, .map a.btn2.pop.rosa
+  {
+    left: 62%;
+    top: 82%;
+    color: #6ec6d9 !important;
+  }
+
+  .map button.btn2.pop.rojo, .map a.btn2.pop.rojo
+  {
+    left: 62%;
+    top: 87%;
+    color: #cc1317 !important;
+  }
+
+}
+
+@media (min-width: 990px)
+{
+  .map button.btn.pop, .map a.btn.pop, .map button.btn2.pop, .map a.btn2.pop
+  {
+    font-size: 1.7rem;
+  }
+  .map button.btn2.pop, .map a.btn2.pop
+  {
+    font-size: 1.3rem;
+  }
+
+  /*bnt2*/
+  .map button.btn2.pop.Nobis, .map a.btn2.pop.Nobis
+  {
+    left: 8%;
+    top: 70%;
+    color: #2b4797 !important;
+  }
+
+  .map button.btn2.pop.verde, .map a.btn2.pop.verde
+  {
+    left: 8%;
+    top: 75%;
+    color: #2fac66 !important;
+  }
+
+  .map button.btn2.pop.blanco, .map a.btn2.pop.blanco
+  {
+    left: 8%;
+    top: 80%;
+    color: #ffffff !important;
+  }
+
+  .map button.btn2.pop.amarillo, .map a.btn2.pop.amarillo
+  {
+    left: 8%;
+    top: 85%;
+    color: #ffed00 !important;
+  }
+
+  .map button.btn2.pop.morado, .map a.btn2.pop.morado
+  {
+    left: 22%;
+    top: 72%;
+    color: #625491 !important;
+  }
+
+  .map button.btn2.pop.rosa, .map a.btn2.pop.rosa
+  {
+    left: 22%;
+    top: 77%;
+    color: #6ec6d9 !important;
+  }
+
+  .map button.btn2.pop.rojo, .map a.btn2.pop.rojo
+  {
+    left: 22%;
+    top: 82%;
+    color: #cc1317 !important;
+  }
+}
+
+.map button.btn.pop:focus, .map a.btn.pop:focus
+{
+  box-shadow: unset;
+  outline: 0;
+  border: 0;
+}
+
+.map button.btn.pop.Nobis, .map a.btn.pop.Nobis
+{
+  left: 60.1%;
+  top: -14.6%;
+  color: #2b4797 !important;
+}
+
+.map button.btn.pop.blanco, .map a.btn.pop.blanco
+{
+  left: 79%;
+  top: -8.5%;
+  color: #ffffff !important;
+}
+.map button.btn.pop.morado, .map a.btn.pop.morado
+{
+  left: 61.25%;
+  top: 60.3%;
+  color: #625491 !important;
+}
+.map button.btn.pop.verde, .map a.btn.pop.verde
+{
+  left: 82.5%;
+  bottom: 16.6%;
+  color: #2fac66 !important;
+}
+.map button.btn.pop.rojo, .map a.btn.pop.rojo
+{
+  left: 52.5%;
+  bottom: 10%;
+  color: #cc1317 !important;
+}
+.map button.btn.pop.amarillo, .map a.btn.pop.amarillo
+{
+  right: 7.5%;
+  top: 28.5%;
+  color: #ffed00 !important;
+}
+.map button.btn.pop.rosa, .map a.btn.pop.rosa
+{
+  left: 47.2%;
+  top: 51%;
+  color: #6ec6d9 !important;
+}
